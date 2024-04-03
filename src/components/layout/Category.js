@@ -40,8 +40,8 @@ function Category() {
 
         <div className="py-8">
             <div className="flex items-center w-full h-12 bg-slate-100 overflow-x-auto whitespace-nowrap scrollbar-hide">
-                <FaSearch className='flex-none'/>
-                <input className='flex-auto w-full h-full' type="text" placeholder="Type something..." />
+                <FaSearch className='flex-none m-3'/>
+                <input className='flex-auto w-full h-full p-2' type="text" placeholder="Type something..." />
             </div>
         </div>
       </div>
