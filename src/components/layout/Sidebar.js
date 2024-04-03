@@ -44,6 +44,18 @@ function Category() {
                 <input className='flex-auto w-full h-full p-2' type="text" placeholder="Type something..." />
             </div>
         </div>
+
+        <div className=''>
+            <p className='pb-4'><b>분류 전체보기 (31)</b></p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+        </div>
       </div>
     );
   }

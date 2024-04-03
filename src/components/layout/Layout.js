@@ -1,12 +1,12 @@
 import Header from './Header';
-import Category from './Category';
+import Sidebar from './Sidebar';
 import Content from './Content';
 
 function Layout(props) {
     return (
         <div className='flex border'>
             <div className='border'>
-                <Category/>
+                <Sidebar/>
             </div>
 
             <div className='border'>
