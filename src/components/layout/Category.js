@@ -1,4 +1,5 @@
 import logo from '../../logo.svg';
+import { FaSearch } from 'react-icons/fa';
 
 function Category() {
     return (
@@ -8,12 +9,12 @@ function Category() {
                 <img className="w-24 h-24 rounded-full mb-2 bg-slate-100" src={logo} alt="이미지 설명" />
             </div>
             <div className='flex flex-col text-center'>
-                <p><b>블로그입니다.</b></p>
+                <p><b>개발 스터디</b></p>
                 <p>김선규</p>
             </div>
         </div>
 
-        <div className="flex justify-between text-center">
+        <div className="flex items-center justify-between text-center">
             <div className='flex justify-start'>
                 <div>
                     <span>전체</span>
@@ -34,6 +35,13 @@ function Category() {
                     <br/>
                     <span>140</span>
                 </div>
+            </div>
+        </div>
+
+        <div className="py-8">
+            <div className="flex items-center w-full h-12 bg-slate-100 overflow-x-auto whitespace-nowrap scrollbar-hide">
+                <FaSearch className='flex-none'/>
+                <input className='flex-auto w-full h-full' type="text" placeholder="Type something..." />
             </div>
         </div>
       </div>
