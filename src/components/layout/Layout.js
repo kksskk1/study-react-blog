@@ -4,14 +4,13 @@ import Content from './Content';
 
 function Layout(props) {
     return (
-        <div className='flex border'>
-            <div className='border'>
+        <div className='flex flex-wrap'>
+            <div className='flex-none'>
                 <Sidebar/>
             </div>
-
-            <div className='border'>
-                <div class='border h-48'><Header/></div>
-                <div class='border'><Content/></div>
+            <div className='flex-auto flex flex-col'>
+                <Header/>
+                <Content/>
             </div>
         </div>
     );

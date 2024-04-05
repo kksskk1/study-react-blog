@@ -3,7 +3,7 @@ import { FaSearch } from 'react-icons/fa';
 
 function Category() {
     return (
-      <div className='w-64 px-4 bg-slate-200'>
+      <div className='w-64 px-4 bg-slate-200 h-full'>
         <div className="py-6">
             <div className="flex justify-center">
                 <img className="w-24 h-24 rounded-full mb-2 bg-slate-100" src={logo} alt="이미지 설명" />
@@ -46,6 +46,42 @@ function Category() {
         </div>
 
         <div className=''>
+            <p className='pb-4'><b>분류 전체보기 (31)</b></p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='pb-4'><b>분류 전체보기 (31)</b></p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='pb-4'><b>분류 전체보기 (31)</b></p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='pb-4'><b>분류 전체보기 (31)</b></p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
+            <p className='py-2'>Javascript (5)</p>
             <p className='pb-4'><b>분류 전체보기 (31)</b></p>
             <p className='py-2'>Javascript (5)</p>
             <p className='py-2'>Javascript (5)</p>
