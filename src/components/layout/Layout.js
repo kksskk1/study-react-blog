@@ -5,12 +5,14 @@ import Content from './Content';
 function Layout(props) {
     return (
         <div className='flex flex-wrap'>
-            <div className='flex-none'>
+            <div className='flex-initial'>
                 <Sidebar/>
             </div>
-            <div className='flex-auto flex flex-col'>
+            <div className='flex-1 flex flex-col'>
                 <Header/>
-                <Content/>
+                <div className="px-64 py-16">
+                    <Content/>
+                </div>
             </div>
         </div>
     );
