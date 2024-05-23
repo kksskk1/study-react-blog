@@ -1,10 +1,13 @@
-import Layout from "./components/layout/Layout";
+
+import { QueryClient, QueryClientProvider } from 'react-query';
+import MainPage from "./pages/MainPage";
 
 function App() {
+    const queryClient = new QueryClient();
     return (
-        <div>
-            <Layout/>
-        </div>
+        <QueryClientProvider client={queryClient}>
+            <MainPage/>
+        </QueryClientProvider>
     );
 }
 
