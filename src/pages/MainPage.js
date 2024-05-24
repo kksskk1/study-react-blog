@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 import Layout from '../components/layout/Layout';
-import Content from '../components/layout/Content';
+import Content from '../components/Content';
 
 function MainPage(props) {
     const fetchPosts = async () => await axios.get(`/`).then(res => res.data);
